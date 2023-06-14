@@ -4,7 +4,7 @@ const Carousel = () => {
   return (
     <div>
       <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full">
+        <div id="slide1" className="carousel-item  w-full">
           <img
             src="https://royaltouchcleaning.net/files/2021/12/logo-v1_1.png"
             className="w-full bg-gray-300 h-[500px]"
@@ -27,11 +27,11 @@ const Carousel = () => {
             <a href="#slide1" className="btn btn-circle">
               ❮
             </a>
-            <div className=" lg:p-10 text-center font-bold bg-[#96a98d70] rounded-lg">
+            {/* <div className=" lg:p-10 text-center font-bold bg-[#96a98d70] rounded-lg">
               <h1 className=" text-4xl mb-4">Royal Touch Cleaning</h1>
               <h2 className=" text-xl">Phone: 66522156 & 99650065</h2>
               <h3 className=" text-lg">Royal.touch.Kuwait@gmail.con</h3>
-            </div>
+            </div> */}
             <a href="#slide3" className="btn btn-circle">
               ❯
             </a>
@@ -46,11 +46,6 @@ const Carousel = () => {
             <a href="#slide2" className="btn btn-circle">
               ❮
             </a>
-            <div className=" lg:p-10 text-center font-bold bg-[#96a98d70] rounded-lg">
-              <h1 className=" text-4xl mb-4">Royal Touch Cleaning</h1>
-              <h2 className=" text-xl">Phone: 66522156 & 99650065</h2>
-              <h3 className=" text-lg">Royal.touch.Kuwait@gmail.con</h3>
-            </div>
             <a href="#slide4" className="btn btn-circle">
               ❯
             </a>
@@ -65,11 +60,6 @@ const Carousel = () => {
             <a href="#slide3" className="btn btn-circle">
               ❮
             </a>
-            <div className=" lg:p-10 text-center font-bold bg-[#96a98d70] rounded-lg">
-              <h1 className=" text-4xl mb-4">Royal Touch Cleaning</h1>
-              <h2 className=" text-xl">Phone: 66522156 & 99650065</h2>
-              <h3 className=" text-lg">Royal.touch.Kuwait@gmail.con</h3>
-            </div>
             <a href="#slide1" className="btn btn-circle">
               ❯
             </a>
